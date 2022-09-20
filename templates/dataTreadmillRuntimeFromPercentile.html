@@ -1,0 +1,79 @@
+<html lang="en">
+
+  <head>
+    <title>Are You Fitter Than a Norwegian?</title>
+    <link rel="stylesheet" href="../static/dataStyle.css">
+  </head>
+
+  <!-- The body consists of the visible parts of the web page. -->
+  <body>
+    <!-- In the header, we display the title of the page along
+    with a tagline and a logo that serves as a link back to the
+    homepage.-->
+    <header>
+      <figure>
+        <a href="/">
+          <img class="siteLogo" src="../static/NorwegianPulse.jpg" alt="Site Logo">
+        </a>
+      </figure>
+      <h1>Are You Fitter Than a Norwegian?</h1>
+      <h3 class="tagline">See if You Can Outrun a Viking</h3>
+    </header>
+
+
+    <!-- Here, we create a navigation bar that will highlight
+    the menu icon of the current page light blue, and the other
+    pages white, providing breadcrumbs that assist the user
+    in navigation and helping them achieve their goals. It also
+    highlights the page that the cursor hovers over with dark
+    blue. The details of these aesthetics are present in the
+    corresponding CSS file. -->
+    <nav>
+      <ul>
+        <li class="highlighted"><a href="/">Calculators</a></li>
+        <!--Eventually needs to link to the standards page-->
+        <li><a href="/standards">Standards</a></li>
+        <li><a href="/about">About This Data</a></li>
+      </ul>
+    </nav>
+
+    <!-- This portion of the page will center on the
+    main content that the site has to offer: a calculator
+    and a description of how to use the site
+    Note: the data.html links are place holders
+    until we implement more calculators-->
+    <div class="page_content">
+      <div class="description">
+        <h2 id="data">How to Use This Site</h2>
+        <p> This site offers multiple calculators to compare your fitness levels with that of Norwegians:</p>
+        <li> <a href="/"> Enter a description of your runs and calculate your percentile rank among Norwegians.</a></li>
+        <li> <a href="/dataRunFromPercentile">See how fast Norwegians can perform your runs by entering a run description and a desired percentile.</a></li>
+        <li> <a href="/dataPercentileFromVO2">Enter your VO2 Max score and see your percentile rank among Norwegians.</a></li>
+        <li> <a href="/dataVO2FromPercentile">Enter a percentile and get the VO2 Max score of Norwegians in that percentile.</a></li>
+        <li> <a href="/dataPercentileFromTreadmillRuntime">Enter your runtime on the Maximal Treadmill Test and see your percentile rank among Norwegians.</a></li>
+        <li> <a href="/dataTreadmillRuntimeFromPercentile">Enter a percentile and get the runtime on the Maximal Treadmill Test of Norwegians in that percentile.</a></li>
+      </div>
+
+      <!--This is the form of this particular calculator with typed answers
+      and a radio button list for the gender-->
+      <div class="content">
+        <h2 id="#calculators">Treadmill Runtime from Percentile Calculator</h2>
+        <p> Please enter your desired percentile rank in the form of a decimal
+          value between 0.00 and 99.99% along with your Gender:</p>
+        <form action="/resultsTreadmillRuntimeFromPercentile" method = 'POST'>
+          <label for="fname">Percentile:</label><br>
+          <input type="number" step="any" id="percent" name="percent" value=""><label for="percent"> %</label><br><br>
+          <label for="lname">Gender:</label><br>
+          <input type="radio" id="Male" name="gender" value="Male">
+          <label for="html">Male</label><br>
+          <input type="radio" id="Female" name="gender" value="Female">
+          <label for="html">Female</label><br>
+          <input type="radio" id="Other" name="gender" value="Other">
+          <label for="html">Other</label><br><br>
+          <input type="submit" value="Calculate!">
+        </form>
+
+      </div>
+    </div>
+  </body>
+</html>

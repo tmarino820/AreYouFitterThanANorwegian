@@ -1,0 +1,75 @@
+<html lang="en">
+
+  <head>
+      <title>Are You Fitter Than a Norwegian?</title>
+      <link rel="stylesheet"  href="../static/dataStyle.css">
+
+  </head>
+
+  <!-- The body consists of the visible parts of the web page. -->
+  <body>
+    <!-- In the header, we display the title of the page along
+    with a tagline and a logo that serves as a link back to the
+    homepage.-->
+    <header>
+      <figure>
+        <a href="/">
+          <img class="siteLogo" src="../static/NorwegianPulse.jpg" alt="Site Logo">
+        </a>
+      </figure>
+      <h1>Are You Fitter Than a Norwegian?</h1>
+      <h3 class="tagline">See if You Can Outrun a Viking</h3>
+    </header>
+
+    <!-- Here, we create a navigation bar that will highlight
+    the menu icon of the current page light blue, and the other
+    pages white, providing breadcrumbs that assist the user
+    in navigation and helping them achieve their goals. It also
+    highlights the page that the cursor hovers over with dark
+    blue. The details of these aesthetics are present in the
+    corresponding CSS file. -->
+    <nav>
+      <ul>
+        <li><a href="/">Calculators</a></li>
+        <!--Eventually needs to link to the standards page-->
+        <li><a href="/standards">Standards</a></li>
+        <li class="highlighted"><a href="/about">About This Data</a></li>
+      </ul>
+    </nav>
+
+    <div class="page_content">
+
+      <!-- Now, we provide the licensing Agreement
+      information that allows us to use this data in
+      our project -->
+      <div class="licence">
+        <h2>Licensing</h2>
+        <p>This data is permitted for use in this project under the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+      </div>
+
+      <!-- Below, we describe the source of our data;
+      the date range, geography, and context over
+      which measurements were collected; and a description
+      of the values included in the data as well as the
+      modifications we made to the data within this
+      project. -->
+      <div class="about">
+        <h2>About This Data</h2>
+
+        <p>The <strong>author</strong> of the article that is associated with this dataset is <strong>Anders Aandstad</strong> - a PhD. and researcher from the Norwegian School of Sports Science (Aandstad, 2021).</p>
+        <p>The article was published by the <em>European Journal of Applied Physiology</em>. However, the data was provided by the <strong>Norwegian Armed Forces HR and Conscription Centre</strong> (Aandstad 2021)</p>
+        <p>The original spreadsheet included many rows across strength and cardio exercises. However, we normalized the data by omitting all of the rows except: <strong>Treadmill run time</strong> (min:sec), and <strong>Est. VO 2peak</strong> (mL * kg^-1 *min^-1) from the Men and Women sections.</p>
+        <p>Our data was collected between 2011 and 2019 by <strong>conscript selection centers in Norway</strong>, and includes “154,659 subjects -- 66% men and 34% women, 17–21 years old -- who completed physical examinations at conscript selection” (Aandstad, 2021).</p>
+        <p>The <strong>Norwegian Armed Forces HR and Conscription Centre</strong> did not make the data in its raw format available to everyone for public viewing due to privacy concerns. However, Aandstad's paper releases general information about individuals over the range of performance levels. From this, we fit distribution curves and generated 10,000 “synthetic” Norwegians across percentiles.</p>
+      </div>
+
+      <!-- Here is a citation in APA format of our
+      source article from which the data originates -->
+      <div class="reference">
+        <h2>References</h3>
+        <p>Aandstad, A. (2021). Reference data on anthropometrics, aerobic fitness and muscle strength in young Norwegian men and women. Eur J Appl Physiol 121, 3189–3200. <a href="https://doi.org/10.1007/s00421-021-04784-4">https://doi.org/10.1007/s00421-021-04784-4</a>.</p>
+        <p>Capritto, A. (2019). VO2 max: Everything you need to know. C|Net Wellness, <a href="https://www.cnet.com/health/your-vo2-max-explained/">https://www.cnet.com/health/your-vo2-max-explained/</a>.</p>
+      </div>
+    </div>
+  </body>
+</html>

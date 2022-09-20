@@ -1,0 +1,61 @@
+<html lang="en">
+
+  <head>
+      <title>Are You Fitter Than a Norwegian?</title>
+      <link rel="stylesheet"  href="../static/dataStyle.css">
+
+  </head>
+
+  <!-- The body consists of the visible parts of the web page. -->
+  <body>
+    <!-- In the header, we display the title of the page along
+    with a tagline and a logo that serves as a link back to the
+    homepage.-->
+    <header>
+      <figure>
+        <a href="/">
+          <img class="siteLogo" src="../static/NorwegianPulse.jpg" alt="Site Logo">
+        </a>
+      </figure>
+      <h1>Are You Fitter Than a Norwegian?</h1>
+      <h3 class="tagline">See if You Can Outrun a Viking</h3>
+    </header>
+
+    <!-- Here, we create a navigation bar that will highlight
+    the menu icon of the current page light blue, and the other
+    pages white, providing breadcrumbs that assist the user
+    in navigation and helping them achieve their goals. It also
+    highlights the page that the cursor hovers over with dark
+    blue. The details of these aesthetics are present in the
+    corresponding CSS file. -->
+    <nav>
+      <ul>
+        <li><a href="/">Calculators</a></li>
+        <li class="highlighted"><a href="#page_content">Standards</a></li>
+        <li><a href="/about">About This Data</a></li>
+      </ul>
+    </nav>
+
+    <div class="page_content">
+        <!-- A brief description of the dataset-->
+        <div class="caption">
+          <h2 id="standards">Cardiovascular and Strength Standards for Norwegians</h2>
+            <p>This is a table of all of the percentiles we were given from
+              the start. From this table is where we generated our dataset
+              to output percentiles and other key information.</p><br>
+            <p>The VO2 max score is a measurement of the maximum amount of oxygen a person 
+              can utilize during exercise. It is measured in milliliters of oxygen consumed 
+              in one minute, per kilogram of body weight. Our calculations used the 
+              Jack Daniels Equation which provides a close approximator for this value(Capritto, 2019).</p><br>
+            <p>The Maximal Treadmill Runtime was calculated through testing each participant, 
+              beginning with 6 minutes of walking at 5 kilometers per hour at a 10% incline. 
+              The speed was then increased by 1 km/hr every minute, still at a 10% incline (Aandstad, 2021).</p>
+        </div>
+
+        <figure>
+            <img class="orgData" src="../static/originalDataTable.jpg" alt="Table of the orginal Percentile dataset">
+        </figure>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+
+Individual Project Proposal:
+Are You Fitter Than a Norwegian?
+
+
+Antonio Marino
+Department of Computer Science
+CS 257.00: Software Design
+Professor Amy Csizmar Dalal
+January 27, 2022
+
+User Persona:
+
+Figure 1: Katherine on her morning jog to the gym (Microgen Images).
+Katherine is a beginner runner. A recent St. Olaf graduate, she is
+a hard working 23 year old engineer in Minneapolis, Minnesota.
+Unfortunately, her desk job requires her to sit throughout much
+of the day, so she hasn’t been feeling very healthy. In response,
+she has taken up jogging to work and to the gym. One morning, she
+thinks to herself: “I don’t know much about running, but I recently
+started doing it a couple times a week, and I’d like to gauge my
+current level of fitness.” Her primary goal is to get fit right
+now, so she feels better physically and mentally, but subconsciously,
+she simply wants to live a healthier, longer life. Because she is 
+new to running, Katherine also wants to develop her specific 
+cardio goals beyond just getting healthier. To accomplish these, 
+she will try to determine her current level of fitness and how 
+much she has to improve before reaching her fitness goals by 
+visiting our site.
+
+Although she has lived her entire life in the US, Katherine
+has heard that Norwegians live longer on average than Americans.
+Therefore, if she compares herself to Norwegians and ranks highly,
+she believes she is more likely to live longer, and if she
+doesn’t rank well, that will only further motivate her.
+
+As a typical Zoomer, Katherine has expectations
+when using a tech service: she wants it to be
+timely, reliable, easy to use, and intuitive.
+She wants the site to work on her phone or
+mobile device, so she can use it just before
+or after the gym. It should have a stable URL
+that can be easily accessed, and the page it
+to which it takes her should be easy to understand.
+Along with training cardio, she has recently started
+doing strength training, so she expects our
+site to look and operate much like the strength
+calculators she has used.
+
+
+User Stories and Acceptance Criteria:
+
+1. Katherine should be able to enter a relatively
+small amount of data about her runs and get a metric
+that quantifies her performance, so she can see where
+she currently stands:
+a. Katherine can enter a valid run time.
+b. Katherine can enter a valid distance she ran.
+c. Katherine can enter a valid speed she ran.
+d. Katherine can get a predicted VO2 Max score that
+quantifies her performance based on the data she inputted.
+
+2. Katherine also wants to get a feel for how fast
+Norwegians run across percentiles of fitness
+levels in order to better place herself and her goals within
+a distribution:
+a. Katherine can enter a valid percentile.
+b. Katherine can enter a valid time she wants to run.
+c. Katherine can enter a valid distance she wants to run.
+d. Katherine can enter a valid speed she wants to run.
+e. Given a percentile and distance, the site will output
+a valid time over which a Norwegian in the given
+percentile can run.
+f. Given a percentile and speed, the site will
+output a valid time over which a Norwegian in the
+given percentile can run.
+g. Given a percentile and distance, the site will
+output a valid speed at which a Norwegian in the
+given percentile can run.
+h. Given a percentile and time, the site will
+output a valid speed at which a Norwegian in the
+given percentile can run.
+i. Given a percentile and time, the site will
+output a valid distance through which a Norwegian
+in the given percentile can run.
+j. Given a percentile and speed, the site will
+output a valid distance through which a Norwegian
+in the given percentile can run.
+
+3. Moreover, Katherine should be able to determine what
+VO2 Max Score she would need in order to reach a certain
+percentile of Norwegian because she wants to visualize
+how much she will need to improve before she can reach
+her goals:
+a. Katherine can enter a valid percentile.
+b. Given a valid percentile, the site will output a VO2 Max
+score of a Norwegian.
+
+References
+Microgen Images. Woman Jogging In City At Night.
+Pixels (2019).
+https://pixels.com/featured/1-woman-jogging-in-city-at-night-microgen-imagesscience-photo-library.html.

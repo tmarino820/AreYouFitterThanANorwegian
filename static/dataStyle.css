@@ -1,0 +1,233 @@
+/* Set a picture of a woman jogging as
+the background */
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("WomanJogging.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}
+/* set up text bock headline titles
+as red*/
+h1, h2, h3 {
+    color: red;
+    border-radius: 1em;
+    padding: 0.7%;
+    font-family: Verdana, sans-serif;
+    text-align: left;
+}
+p {
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+}
+/* follow conventions by establishing
+the position of the site logo at the
+left of the page */
+figure {
+    float: left;
+    margin-right: 2%;
+}
+div {
+    clear: left;
+    padding-bottom: 2em;
+}
+ul {
+    width: 65%;
+}
+li {
+    font-family: Verdana, sans-serif;
+    line-height: 1.4;
+}
+/* establish the main page content */
+div.page_content {
+  width: 96.4%;
+  float: center;
+  clear: both;
+  display: table;
+}
+/* set the format for the navigation
+bar and follow conventions by shifting
+the icons to the left */
+nav ul {
+    border: 0.2em solid blue;
+    border-radius: 1em;
+    list-style-type: none;
+    overflow: hidden;
+    width: 96%;
+    text-align: center;
+    padding: 0;
+}
+nav li {
+    float: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+nav li a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em 1.2em;
+}
+input[type=submit] {
+      padding: 5% 40%;
+      background: white;
+      border: 0.2em solid blue;
+      cursor: pointer;
+      -webkit-border-radius: 5px;
+      border-radius: 1em;
+}
+input[type=submit]:hover {
+      padding: 5% 40%;
+      background: blue;
+      border: 0.2em solid blue;
+      cursor: pointer;
+      -webkit-border-radius: 5px;
+      border-radius: 1em;
+}
+nav li a:hover {
+    color: white;
+    background-color: blue;
+}
+nav li .form-submit-button:hover {
+    color: white;
+    background-color: blue;
+}
+nav li.highlighted {
+  background-color: #ADD8E6;
+}
+/* set basic formatting for the text boxes within
+the page_content portion of the page */
+div.content, div.description, div.about, div.licence, div.reference, div.results, div.error, header {
+    background-color: white;
+    width: 45%;
+    border: 0.2em solid blue;
+    border-radius: 1em;
+    float: left;
+    margin-bottom: 1.1em;
+    padding: 1.1em;
+}
+div.caption {
+    background-color: white;
+    width: 100%;
+    border: 0.2em solid blue;
+    border-radius: 1em;
+    float: left;
+    margin-bottom: .5em;
+    padding: .5em;
+    text-align: center;
+}
+/* Format banner at the top of the
+page */
+header {
+  width: 93.5%;
+}
+/* Format box containing licensing
+info */
+div.licence {
+    float: right;
+}
+/* Format box describing how to use
+the site */
+div.description {
+    float: right;
+}
+/* Format box containing the results of
+our calculations */
+div.results, div.error {
+    width: 96.4%;
+}
+/* set up a table that displays the user's percentile
+rank and VO2 Max Score */
+div.subResultsRow {
+    width:100%
+}
+div.subResults {
+    float: center;
+    display: table;
+    width:100%;
+}
+div.VO2MaxScore {
+    display: table-cell;
+}
+div.percentile {
+    display: table-cell;
+}
+div.runDescription {
+  display: table-cell;
+}
+/* define the buttons outside of the nav bar such as
+Calculate! and See Full Stamina Standards*/
+div ul {
+   border: 0.2em solid blue;
+   border-radius: 1em;
+   list-style-type: none;
+   overflow: hidden;
+   width: 96%;
+   text-align: center;
+   padding: 0;
+}
+div li {
+   float: left;
+   font-size: 1.1em;
+   font-weight: bold;
+   text-align: center;
+   background-color: white;
+}
+div li a {
+   display: block;
+   color: blue;
+   text-decoration: none;
+   text-align: left;
+   padding: 1em 1.2em;
+}
+div li a:hover {
+   color: white;
+   background-color: blue;
+}
+li {
+ list-style: none;
+}
+/* define the format of the input
+channels on the calculator*/
+label {
+  font-size: 1.2em;
+}
+input {
+  font-size: 1.2em;
+}
+select {
+  font-size: 1.2em;
+}
+/* tell the site how to handle bolding text
+that deals with important info*/
+strong.percentile {
+  font-size: 5em;
+}
+strong.VO2MaxScore, strong.distance, strong.time, strong.speed, strong.treadRuntime{
+  font-size: 2em;
+}
+strong.staminaLevel {
+  font-size: 1.5em;
+}
+/* format the site logo and out of five
+stars images*/
+img.stars {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    height:15%;
+}
+img.siteLogo {
+    width:100%;
+    height:15%;
+}
+img.orgData {
+    width: 100%
+}
