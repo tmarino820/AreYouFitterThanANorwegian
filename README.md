@@ -2,6 +2,7 @@
 cs257-w22-team-group-a created by GitHub Classroom
 
 ## Are You Fitter Than a Norwegian?
+<img width="1680" alt="Screen Shot 2023-01-28 at 2 37 00 PM" src="https://user-images.githubusercontent.com/17751446/215290077-e2f90b8c-9a78-41d7-ae3d-a508e8e51c9b.png">
 
 Group Members: Jeremy Beckler, Antonio Marino
 
